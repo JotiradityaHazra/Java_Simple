@@ -1,1 +1,1 @@
-Here i am creating a simple java applicaion and then containerize it in docker
+Here i am creating a simple Python applicaion and then containerize it in docker

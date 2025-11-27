@@ -1,14 +1,12 @@
-# Use official OpenJDK image
-FROM eclipse-temurin:17-jdk-alpine
+# Base image pull 
+FROM python:3.9-slim
 
-# Set working directory inside container
+# Set working directory 
 WORKDIR /app
 
-# Copy project folder into container
-COPY java_App/ ./java_App/
+# Copy the Python script into the container
+COPY Python.py .
 
-# Compile the Java file
-RUN javac java_App/Test.java
+# Command to run the Python script
+CMD ["python", "Python.py"]
 
-# Run the program
-CMD ["java", "java_App.Test"]
