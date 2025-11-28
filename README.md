@@ -7,6 +7,8 @@ Step 1 --> Install craete node application and run it to check if it runs
 
 Step 2 --> Create a file dockerfile 
 
-Step 3 --> 
+Step 3 -->  add the docker configuration to craete docker file /
+
+
 
 
