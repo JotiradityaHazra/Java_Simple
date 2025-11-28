@@ -8,6 +8,6 @@ Step 2 --> Create a file dockerfile
 
 Step 3 --> add the docker configuration to craete docker file
 
-step 4 --> build docker image (docker build -t  .)
+step 4 --> build docker image (docker build -t  <imagename>.)
 
-Step 5 -- > 
+Step 5 -- > run the image as a container (docker run <imagename>)
