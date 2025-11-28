@@ -5,4 +5,8 @@ So lets start
 
 Step 1 --> Install craete node application and run it to check if it runs 
 
+Step 2 --> Create a file dockerfile 
+
+Step 3 --> 
+
 
