@@ -1,7 +1,10 @@
-# Base image pull 
-FROM python:3.9-slim
+# Use official OpenJDK image (windows)
+FROM eclipse-temurin:17-jdk-alpine
 
-# Set working directory 
+#FROM eclipse-temurin:17-jdk-alpine (for mac)
+
+
+# Set working directory inside container
 WORKDIR /app
 
 # Copy the Python script into the container

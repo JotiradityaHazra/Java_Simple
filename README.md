@@ -1,14 +1,13 @@
-Here i am creating a simple Python applicaion and then containerize it in docker
+Here i am creating a simple java applicaion and then containerize it in docker <br>
 
-So lets start 
+------Let Start -----
 
-
-Step 1 -- > Install Python  and run a simple Python application
+Step 1 -- > Install java and run a simple java application 
 
 Step 2 --> Create a file dockerfile
 
-Step 3 --> add the docker configuration to create docker file
+Step 3 --> add the docker configuration to craete docker file
 
-step 4 --> build docker image (docker build -t .)
+step 4 --> build docker image (docker build -t  <imagename>.)
 
-Step 5 -- > run the image as a container (docker run )
+Step 5 -- > run the image as a container (docker run <imagename>)
