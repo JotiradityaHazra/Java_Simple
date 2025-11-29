@@ -8,8 +8,11 @@ FROM eclipse-temurin:17-jdk-alpine
 WORKDIR /app
 
 # Copy the Python script into the container
-COPY Python.py .
+COPY  Counter.java .
+
+# Compile the Java program
+RUN javac Counter.java
 
 # Command to run the Python script
-CMD ["python", "Python.py"]
+CMD ["java", "Counter"]
 
